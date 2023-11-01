@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    background-color: black;  
+    color: white;       
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;    
+}   
+
+
+
+nav{    
+    width: 100%;
+    height: 20vh;   
+    display: flex;
+    justify-content: space-evenly;      
+}
+.divesquerda{   
+    width: 50vw;
+    height: 20vh;
+    display: flex;   
+    align-items: center;
+}
+ .divesquerda img{
+    width: 2.5vw;    
+    margin-right: 10px;
+ }
+ .divdireita{
+    width: 10vw;
+    display: flex;    
+    justify-content: space-between;
+ } 
+ .divdireita img{
+    width: 2.5vw;   
+ }
+
+
+
+ 
+ .divblocoinicial{
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+ }
+ .divblocoinicial img{
+    width: 150px;
+ }
+
+h1{
+    font-family: 'Roboto Serif', serif;
+    font-size: 5rem;     
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Roboto Serif', serif;
+}
+.blocoinicial{   
+    background-image:url(imagens/Caoblocoinicial.png);
+    background-size: 100% 120vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;  
+    color: white;     
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+
+
+
+
+.blocobranco{
+    background-image: url(imagens/caoblocobranco.png);
+    background-size: 100% 120vh;
+    background-repeat: no-repeat;   
+    height: 100vh; 
+    color: #3a342f;
+    font-size: 3rem;     
+    
+}
+.divtextoblocobranco{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;   
+    margin-left: 50px;
+}
+.blocobranco button{
+    width: 50%;
+    height: 10%;   
+    background-color: #3a342f;
+    color: white;
+    border-radius: 50px;     
+    font-size: 1.8rem;   
+    font-family: 'Roboto Serif', serif;   
+    margin: 10px;    
+    padding: 30px;
+}
+
+
+
+
+.blocoterceiro{
+    background-image: url(imagens/caoblocoterceiro.png);
+    background-size: 100% 120vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;  
+    color: white;
+    font-size: 3rem;
+    display: flex;  
+    justify-content: end; 
+    align-items: center;    
+}
+.divtextoblocoterceiro{    
+    width: 45%;
+    height: 100%;
+    padding-right: 15%;
+    display: flex;
+    justify-content:center;
+    align-items: left;    
+    flex-direction: column; 
+}
+.blocoterceiro button{
+    width: 20vw;
+    height: 12vh;   
+    background-color: white;
+    color: black;
+    border-radius: 80px;     
+    font-size: 1.8rem;   
+    font-family: 'Roboto Serif', serif;   
+    margin: 10px;    
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.blocomenor{  
+    width: 100%;  
+    height: 40vh; 
+    background-color: white;
+    color: #fd6a9a;
+    font-family: 'Roboto Serif', serif;
+    font-style: italic;
+    font-size: 2rem;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;   
+}
+.divblocomenor{
+    width:40%;
+    height: 20vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
+    justify-content: space-evenly;
+}
+.blocomenor img{
+    width: 15vw;    
+}
+
+
+
+footer{
+    background-color:#eb4a7b;
+    background-size: 100%;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: 'Roboto';  
+    display: flex;         
+}
+footer h3{
+    font-size: 2.5rem;
+}
+.divfooter{
+    width: 20%;
+    height: 40vh;
+    margin-left:60px;
+    display: flex;
+    align-items: left;
+    justify-content: center; 
+    flex-direction: column;
+    justify-content: space-evenly:
+}
+
+
+.divimagemfooterfantastika img{
+    display: none;
+}
+.divimagemfootericonesredes img{
+   display: none;
+}
+
+
+
+
+
+@media screen and (max-width:500px){
+    body{        
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    position: fixed;
+}
+
+nav{
+    background-size: 10vw;
+    height: 20vh;
+    font-size: 1.2rem;
+    
+}
+.divdireita{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+.divesquerda img{
+    width: 3vh;
+}
+.divdireita img{
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    justify-content: space-between;    
+}
+
+#imgdivdirinstagram, #imgdivdiryoutube{
+    visibility: hidden;
+}
+
+
+#blocoinicial{
+    background-size: 100vw;  
+    background-image: url(imagens/Caoblocoinicialmobile.png); 
+}
+.divblocoinicial{   
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    text-align: center;     
+    width:80%;
+}
+h1{
+    font-size: 2rem;
+}
+.divblocoinicial img{
+    width: 25%;
+    margin-top: 40px;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+
+.blocobranco{   
+    background-size: 120% 100vh;       
+    background-image: url(imagens/Caoblocobrancomobile.png);
+    display: flex;
+    align-items:start;
+    justify-content:center;      
+}
+.divtextoblocobranco{       
+    font-size: medium;    
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;    
+    margin-right: 180px;   
+    margin-top: 40px;
+}
+.blocobranco button{
+    width: 40vw;
+    height: 8vh;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.blocoterceiro{
+    background-image: url(imagens/Caoblocoterceiromobile.png);
+    background-size: 120% 120vh;
+    display: flex;
+    align-items: start;
+    justify-content:start;    
+}
+.divtextoblocoterceiro{
+    font-size: medium;
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;     
+    margin-left: 40px;
+}
+.blocoterceiro button{
+    width: 40vw;
+    height: 10vh;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blocomenor{
+width: 100vw;
+height: 30vh;
+font-size: 1.2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.divblocomenor {   
+    width:100vw;
+    height: 10vh;
+    font-size: 3rem;  
+    display: flex;
+    justify-content: center;
+    align-items:center;  
+    justify-content: space-evenly;  
+}
+.divblocomenor img{      
+    width: 30vw;    
+    height: 30vh;  
+}
+
+
+
+footer{ 
+    width: 100%;
+    height: 120vh;
+    font-size: 1rem;    
+    background-position: center;
+    display: block;
+    text-align: center;  
+}
+.divfooter{
+    width: 60vw;
+    height: 30vh;
+    text-align: center;
+}
+.divfooter h3{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 60vw;
+    
+}    
+
+
+
+.divimagemfooterfantastika img{
+    width: 50vw;   
+    margin-top: 30px;
+}
+.divimagemfootericonesredes img{
+    width: 12vw;   
+    height: 3vh;
+    display:inline;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.divimagemfooterfantastika img{
+    display: initial;
+}
+.divimagemfootericonesredes img{
+    display: initial;
+}
+
+
+}
+
